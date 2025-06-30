@@ -1,140 +1,151 @@
-Legal Case Search App ⚖️
+Here’s a polished and professional **README** tailored for your `legal-case-search-app` repository:
+
+---
+
+# Legal Case Search App ⚖️
+
 A powerful web/mobile application that enables users to search and filter legal case data efficiently. Built with Next.js, AI retrieval augmentation, and Pinecone (or similar vector database) to deliver accurate, fast, and context-aware case insights.
 
-📦 Table of Contents
-Features
+---
 
-Tech Stack
+## 📦 Table of Contents
 
-Getting Started
+* [Features](#-features)
+* [Tech Stack](#-tech-stack)
+* [Getting Started](#-getting-started)
 
-Prerequisites
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+  * [Environment Variables](#environment-variables)
+  * [Running Locally](#running-locally)
+* [Usage](#-usage)
+* [Testing](#-testing)
+* [Deployment](#-deployment)
+* [Contributing](#-contributing)
+* [License](#-license)
+* [Contact](#-contact)
 
-Installation
+---
 
-Environment Variables
+## 🔍 Features
 
-Running Locally
+* **Semantic Case Search** – Use AI-powered retrieval to search legal texts by relevance, not just keyword matches.
+* **Advanced Filters** – Narrow down results by date, jurisdiction, case type, or other custom data fields.
+* **Case Summaries** – Read concise AI-generated summaries of case documents.
+* **Detail View** – Explore full case text with highlighted snippets matching your query.
+* **Efficient Indexing** – Index legal datasets using Pinecone, Elasticsearch, or similar vector stores.
 
-Usage
+---
 
-Testing
+## 💻 Tech Stack
 
-Deployment
+* **Frontend**: Next.js, React, Tailwind CSS (or Chakra/UIKit)
+* **Backend**: Node.js + Express or Next.js API Routes
+* **AI Retrieval**: LangChain, OpenAI GPT
+* **Vector Database**: Pinecone
+* **Hosting / Deployment**: Vercel (Frontend), Vercel Serverless / AWS Lambda (Backend)
 
-Contributing
+---
 
-License
+## 🚀 Getting Started
 
-Contact
+### Prerequisites
 
-🔍 Features
-Semantic Case Search – Use AI-powered retrieval to search legal texts by relevance, not just keyword matches.
+* Node.js (v16+ recommended)
+* Yarn or npm
+* Pinecone account and index
+* OpenAI (or equivalent) API key
 
-Advanced Filters – Narrow down results by date, jurisdiction, case type, or other custom data fields.
+### Installation
 
-Case Summaries – Read concise AI-generated summaries of case documents.
-
-Detail View – Explore full case text with highlighted snippets matching your query.
-
-Efficient Indexing – Index legal datasets using Pinecone, Elasticsearch, or similar vector stores.
-
-💻 Tech Stack
-Frontend: Next.js, React, Tailwind CSS (or Chakra/UIKit)
-
-Backend: Node.js + Express or Next.js API Routes
-
-AI Retrieval: LangChain, OpenAI GPT
-
-Vector Database: Pinecone
-
-Hosting / Deployment: Vercel (Frontend), Vercel Serverless / AWS Lambda (Backend)
-
-🚀 Getting Started
-Prerequisites
-Node.js (v16+ recommended)
-
-Yarn or npm
-
-Pinecone account and index
-
-OpenAI (or equivalent) API key
-
-Installation
-bash
-Copy code
+```bash
 git clone https://github.com/onkarshirke/legal-case-search-app.git
 cd legal-case-search-app
 npm install  # or yarn install
-Environment Variables
-Create a .env.local file at the root:
+```
 
-dotenv
-Copy code
+### Environment Variables
+
+Create a `.env.local` file at the root:
+
+```dotenv
 PINECONE_API_KEY=your-pinecone-api-key
 PINECONE_INDEX=your-index-name
 VOYAGE_API_KEY=your-openai-api-key
 # PORT is ignored on Vercel (automatically assigned)
-❗ Note: Do not wrap values in quotes—Vercel and .env parsers interpret them literally.
+```
 
-Running Locally
-bash
-Copy code
+> ❗ **Note**: Do not wrap values in quotes—Vercel and `.env` parsers interpret them literally.
+
+### Running Locally
+
+```bash
 npm run dev
-Visit http://localhost:3000 to explore the app.
+```
 
-🧠 Usage
-Navigate to the search bar on the home page.
+Visit [http://localhost:3000](http://localhost:3000) to explore the app.
 
-Enter your case query or keywords.
+---
 
-Browse through filtered results with summaries and similarity scores.
+## 🧠 Usage
 
-Click any result to open detailed case view with relevant excerpts.
+1. Navigate to the search bar on the home page.
+2. Enter your case query or keywords.
+3. Browse through filtered results with summaries and similarity scores.
+4. Click any result to open detailed case view with relevant excerpts.
 
-🧪 Testing
-Unit tests with Jest
+---
 
-API route tests with Supertest
+## 🧪 Testing
 
-Run all tests:
+* **Unit tests** with Jest
+* **API route tests** with Supertest
+* Run all tests:
 
-bash
-Copy code
+```bash
 npm test
-📦 Deployment
-Built to deploy smoothly on Vercel:
+```
 
-Push your repo to GitHub.
+---
 
-Connect to Vercel, set your env vars (as above).
+## 📦 Deployment
 
-Deploy automatically via GitHub integration.
+Built to deploy smoothly on **Vercel**:
+
+1. Push your repo to GitHub.
+2. Connect to Vercel, set your env vars (as above).
+3. Deploy automatically via GitHub integration.
 
 For backend API Routes, serverless functions will handle search queries and indexing logic without extra setup.
 
-✨ Contributing
+---
+
+## ✨ Contributing
+
 Contributions, ideas, and improvements are welcome!
 To propose changes:
 
-Fork the project
+1. Fork the project
+2. Create a branch (`git checkout -b feature/some-feature`)
+3. Commit with meaningful messages (`git commit -m 'Add X feature'`)
+4. Push your branch (`git push origin feature/some-feature`)
+5. Open a Pull Request
 
-Create a branch (git checkout -b feature/some-feature)
+---
 
-Commit with meaningful messages (git commit -m 'Add X feature')
+## 📝 License
 
-Push your branch (git push origin feature/some-feature)
+This project is licensed under the **\[MIT License]**, see the [LICENSE](LICENSE) file for details.
 
-Open a Pull Request
+---
 
-📝 License
-This project is licensed under the [MIT License], see the LICENSE file for details.
+## 📬 Contact
 
-📬 Contact
-Onkar Shirke
+**Onkar Shirke**
 
-GitHub: onkarshirke
+* GitHub: [onkarshirke](https://github.com/onkarshirke)
+* Email: [your-email@example.com](mailto:your-email@example.com)
 
-Email: your-email@example.com
+---
 
-Developed with ❤️ by Onkar Shirke
+*Developed with ❤️ by Onkar Shirke*
