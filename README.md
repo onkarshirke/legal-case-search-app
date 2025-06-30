@@ -1,9 +1,6 @@
-Below is the README with the requested **Deployed Screenshots** section inserted immediately after **Deployment**.
-
-````markdown
 # Legal Case Search App ⚖️
 
-A powerful web/mobile application that enables users to search and filter legal case data efficiently. Built with Next.js, AI retrieval augmentation, and Pinecone (or similar vector database) to deliver accurate, fast, and context‑aware case insights.
+A powerful web/mobile application that enables users to search and filter legal case data efficiently. Built with Next.js, AI retrieval augmentation, and Pinecone (or similar vector database) to deliver accurate, fast, and context-aware case insights.
 
 ---
 
@@ -12,6 +9,7 @@ A powerful web/mobile application that enables users to search and filter legal 
 * [Features](#-features)
 * [Tech Stack](#-tech-stack)
 * [Getting Started](#-getting-started)
+
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
   * [Environment Variables](#environment-variables)
@@ -19,7 +17,6 @@ A powerful web/mobile application that enables users to search and filter legal 
 * [Usage](#-usage)
 * [Testing](#-testing)
 * [Deployment](#-deployment)
-* [Deployed Screenshots](#-deployed-screenshots)
 * [Contributing](#-contributing)
 * [License](#-license)
 * [Contact](#-contact)
@@ -28,9 +25,9 @@ A powerful web/mobile application that enables users to search and filter legal 
 
 ## 🔍 Features
 
-* **Semantic Case Search** – Use AI‑powered retrieval to search legal texts by relevance, not just keyword matches.
+* **Semantic Case Search** – Use AI-powered retrieval to search legal texts by relevance, not just keyword matches.
 * **Advanced Filters** – Narrow down results by date, jurisdiction, case type, or other custom data fields.
-* **Case Summaries** – Read concise AI‑generated summaries of case documents.
+* **Case Summaries** – Read concise AI-generated summaries of case documents.
 * **Detail View** – Explore full case text with highlighted snippets matching your query.
 * **Efficient Indexing** – Index legal datasets using Pinecone, Elasticsearch, or similar vector stores.
 
@@ -38,11 +35,11 @@ A powerful web/mobile application that enables users to search and filter legal 
 
 ## 💻 Tech Stack
 
-* **Frontend**: Next.js, React, Tailwind CSS (or Chakra/UIKit)
-* **Backend**: Node.js + Express or Next.js API Routes
-* **AI Retrieval**: LangChain, OpenAI GPT
+* **Frontend**: Next.js, React, Tailwind CSS (or Chakra/UIKit)
+* **Backend**: Node.js + Express or Next.js API Routes
+* **AI Retrieval**: LangChain, OpenAI GPT
 * **Vector Database**: Pinecone
-* **Hosting / Deployment**: Vercel (Frontend) | Vercel Serverless / AWS Lambda (Backend)
+* **Hosting / Deployment**: Vercel (Frontend), Vercel Serverless / AWS Lambda (Backend)
 
 ---
 
@@ -50,7 +47,7 @@ A powerful web/mobile application that enables users to search and filter legal 
 
 ### Prerequisites
 
-* Node.js (v16+ recommended)
+* Node.js (v16+ recommended)
 * Yarn or npm
 * Pinecone account and index
 * OpenAI (or equivalent) API key
@@ -61,7 +58,7 @@ A powerful web/mobile application that enables users to search and filter legal 
 git clone https://github.com/onkarshirke/legal-case-search-app.git
 cd legal-case-search-app
 npm install  # or yarn install
-````
+```
 
 ### Environment Variables
 
@@ -74,7 +71,7 @@ VOYAGE_API_KEY=your-openai-api-key
 # PORT is ignored on Vercel (automatically assigned)
 ```
 
-> ❗ **Note:** Do **not** wrap values in quotes—Vercel and `.env` parsers interpret them literally.
+> ❗ **Note**: Do not wrap values in quotes—Vercel and `.env` parsers interpret them literally.
 
 ### Running Locally
 
