@@ -1,0 +1,121 @@
+{
+  "documents": [
+    {
+      "filename": "Kesavananda_Bharati_v_State_of_Kerala_1973.pdf",
+      "title": "Kesavananda Bharati v. State of Kerala",
+      "plaintiff": "Kesavananda Bharati",
+      "defendant": "State of Kerala",
+      "date": "1973",
+      "topic": "Parliament’s amendment power & basic‑structure limit",
+      "outcome": "Court upheld amending power but created the Basic‑Structure doctrine"
+    },
+    {
+      "filename": "R_Venkataraman_v_Union_of_India_1989.pdf",
+      "title": "R. Venkataraman v. Union of India",
+      "plaintiff": "R. Venkataraman",
+      "defendant": "Union of India",
+      "date": "1989",
+      "topic": "Challenge to Presidential election",
+      "outcome": "Petition dismissed—election can be challenged only by statutory petition"
+    },
+    {
+      "filename": "Mohan_Singh_v_State_of_Punjab_1963.pdf",
+      "title": "Mohan Singh v. State of Punjab",
+      "plaintiff": "Mohan Singh",
+      "defendant": "State of Punjab",
+      "date": "1963",
+      "topic": "Illegal firearm possession under the Arms Act",
+      "outcome": "Conviction upheld—strict liability for unlicensed firearms"
+    },
+    {
+      "filename": "Indira_Nehru_Gandhi_v_Raj_Narain_1975.pdf",
+      "title": "Indira Nehru Gandhi v. Raj Narain",
+      "plaintiff": "Indira Nehru Gandhi",
+      "defendant": "Raj Narain",
+      "date": "1975",
+      "topic": "Free & fair elections / basic structure",
+      "outcome": "39th Amendment clause struck—judicial review preserved"
+    },
+    {
+      "filename": "Maneka_Gandhi_v_Union_of_India_1978.pdf",
+      "title": "Maneka Gandhi v. Union of India",
+      "plaintiff": "Maneka Gandhi",
+      "defendant": "Union of India",
+      "date": "1978",
+      "topic": "Article 21 – personal liberty & due‑process",
+      "outcome": "Expanded Article 21—procedure must be just, fair, reasonable"
+    },
+    {
+      "filename": "ADM_Jabalpur_v_Shivkant_Shukla_1976.pdf",
+      "title": "A.D.M. Jabalpur v. Shivkant Shukla",
+      "plaintiff": "A.D.M. Jabalpur",
+      "defendant": "Shivkant Shukla",
+      "date": "1976",
+      "topic": "Personal liberty during National Emergency",
+      "outcome": "Habeas corpus denied—rights suspended during Emergency"
+    },
+    {
+      "filename": "Hussainara_Khatoon_v_State_of_Bihar_1979.pdf",
+      "title": "Hussainara Khatoon v. State of Bihar",
+      "plaintiff": "Hussainara Khatoon",
+      "defendant": "State of Bihar",
+      "date": "1979",
+      "topic": "Right to speedy trial & legal aid",
+      "outcome": "Recognised speedy trial and free legal aid as fundamental rights"
+    },
+    {
+      "filename": "Selvi_v_State_of_Karnataka_2010.pdf",
+      "title": "Selvi v. State of Karnataka",
+      "plaintiff": "Selvi",
+      "defendant": "State of Karnataka",
+      "date": "2010",
+      "topic": "Involuntary narco‑analysis / self‑incrimination",
+      "outcome": "Banned involuntary tests—upheld Article 20(3) protections"
+    },
+    {
+      "filename": "Shreya_Singhal_v_Union_of_India_2015.pdf",
+      "title": "Shreya Singhal v. Union of India",
+      "plaintiff": "Shreya Singhal",
+      "defendant": "Union of India",
+      "date": "2015",
+      "topic": "Free speech – Section 66A IT Act",
+      "outcome": "Section 66A struck down as unconstitutional"
+    },
+    {
+      "filename": "Sanjay_Dutt_v_State_1994.pdf",
+      "title": "Sanjay Dutt v. State through C.B.I.",
+      "plaintiff": "Sanjay Dutt",
+      "defendant": "State through C.B.I.",
+      "date": "1994",
+      "topic": "Illegal firearm possession in Bombay‑blasts case",
+      "outcome": "Arms Act conviction maintained; bail under TADA denied"
+    },
+    {
+      "filename": "SR_Bommai_v_Union_of_India_1994.pdf",
+      "title": "S. R. Bommai v. Union of India",
+      "plaintiff": "S. R. Bommai",
+      "defendant": "Union of India",
+      "date": "1994",
+      "topic": "Misuse of Article 356 – President’s Rule",
+      "outcome": "President’s Rule subject to judicial review; strict guidelines set"
+    },
+    {
+      "filename": "Prakash_Singh_v_Union_of_India_2006.pdf",
+      "title": "Prakash Singh v. Union of India",
+      "plaintiff": "Prakash Singh",
+      "defendant": "Union of India",
+      "date": "2006",
+      "topic": "Police reforms & state accountability",
+      "outcome": "Court issued seven binding directives for police reform"
+    },
+    {
+      "filename": "KS_Puttaswamy_v_Union_of_India_2017.pdf",
+      "title": "K.S. Puttaswamy v. Union of India",
+      "plaintiff": "K.S.Puttaswamy",
+      "defendant": "Union of India",
+      "date": "2017",
+      "topic": "Fundamental right to privacy",
+      "outcome": "Privacy declared a fundamental right under the Constitution"
+    }
+  ]
+}

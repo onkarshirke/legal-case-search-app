@@ -1,0 +1,34 @@
+# Dependency directory
+/node_modules
+
+# Yarn Plug'n'Play files
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Environment variable files
+.env
+.env.*
+
+# Next.js build output
+.next
+
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS system files
+.DS_Store
+
+# Test coverage directory
+coverage
+
+# VSCode settings folder
+.vscode
+
+# Build output directories
+dist
+build
